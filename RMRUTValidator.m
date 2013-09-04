@@ -20,13 +20,13 @@
     NSString *digit = [rut substringFromIndex:[rut length]-1];
     NSArray *multipliers = @[ @2, @3, @4, @5, @6, @7, @2, @3 ];
 
-    __block int numbersSum = 0;
-    __block int index = 0;
+    __block NSInteger numbersSum = 0;
+    __block NSInteger index = 0;
     
     NSStringEnumerationOptions enumerationOptions = NSStringEnumerationReverse | NSStringEnumerationByComposedCharacterSequences;
     
     [numbers enumerateSubstringsInRange:NSMakeRange(0, [numbers length]) options:enumerationOptions usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
-        numbersSum += [substring intValue] * [multipliers[index] intValue];
+        numbersSum += [substring integerValue] * [multipliers[index] integerValue];
         index++;
     }];
     
