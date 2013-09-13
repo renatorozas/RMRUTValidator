@@ -32,7 +32,7 @@
     
     NSInteger digitCalculation = 11 - (numbersSum % 11);
 
-    NSString *computedDigit = digitCalculation == 10 ? @"K" : [NSString stringWithFormat:@"%d", digitCalculation];
+    NSString *computedDigit = digitCalculation == 10 ? @"K" : [NSString stringWithFormat:@"%d", (int)digitCalculation];
     
     if ([digit isEqualToString:computedDigit]) {
         return YES;
