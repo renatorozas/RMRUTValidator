@@ -30,7 +30,7 @@
         index++;
     }];
     
-    int digitCalculation = 11 - (numbersSum % 11);
+    NSInteger digitCalculation = 11 - (numbersSum % 11);
 
     NSString *computedDigit = digitCalculation == 10 ? @"K" : [NSString stringWithFormat:@"%d", digitCalculation];
     
