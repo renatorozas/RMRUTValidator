@@ -17,6 +17,11 @@
     rut = [rut stringByReplacingOccurrencesOfString:@"-" withString:@""];
     
     NSString *numbers = [rut substringToIndex:[rut length]-1];
+    
+    if ([numbers integerValue] == 0) {
+        return NO;
+    }
+    
     NSString *digit = [rut substringFromIndex:[rut length]-1];
     NSArray *multipliers = @[ @2, @3, @4, @5, @6, @7, @2, @3 ];
 
