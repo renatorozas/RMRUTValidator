@@ -13,7 +13,6 @@
 		E3F016F217E47FA500EC36B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3F016F017E47FA500EC36B4 /* InfoPlist.strings */; };
 		E3F016F417E47FA500EC36B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F016F317E47FA500EC36B4 /* main.m */; };
 		E3F016F817E47FA500EC36B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F016F717E47FA500EC36B4 /* AppDelegate.m */; };
-		E3F016FA17E47FA500EC36B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F016F917E47FA500EC36B4 /* Images.xcassets */; };
 		E3F0170117E47FA500EC36B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F0170017E47FA500EC36B4 /* XCTest.framework */; };
 		E3F0170217E47FA500EC36B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016E717E47FA500EC36B4 /* Foundation.framework */; };
 		E3F0170317E47FA500EC36B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016EB17E47FA500EC36B4 /* UIKit.framework */; };
@@ -43,7 +42,6 @@
 		E3F016F517E47FA500EC36B4 /* RMRUTValidator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMRUTValidator-Prefix.pch"; sourceTree = "<group>"; };
 		E3F016F617E47FA500EC36B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3F016F717E47FA500EC36B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E3F016F917E47FA500EC36B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E3F016FF17E47FA500EC36B4 /* RMRUTValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMRUTValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F0170017E47FA500EC36B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E3F0170817E47FA500EC36B4 /* RMRUTValidatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMRUTValidatorTests-Info.plist"; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				E3F0171617E47FCD00EC36B4 /* Classes */,
 				E3F016F617E47FA500EC36B4 /* AppDelegate.h */,
 				E3F016F717E47FA500EC36B4 /* AppDelegate.m */,
-				E3F016F917E47FA500EC36B4 /* Images.xcassets */,
 				E3F016EE17E47FA500EC36B4 /* Supporting Files */,
 			);
 			path = RMRUTValidator;
@@ -233,7 +230,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3F016F217E47FA500EC36B4 /* InfoPlist.strings in Resources */,
-				E3F016FA17E47FA500EC36B4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +451,7 @@
 				E3F0171217E47FA500EC36B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3F0171317E47FA500EC36B4 /* Build configuration list for PBXNativeTarget "RMRUTValidatorTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +460,7 @@
 				E3F0171517E47FA500EC36B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
