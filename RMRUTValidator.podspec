@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7'
 
   s.source       = { :git => 'https://github.com/renatomoya/RMRUTValidator.git', :tag => '0.0.1' }
-  s.source_files  = 'RMRUTValidator/Classes/RMRUTValidator.{h,m}'
+  s.source_files  = 'RMRUTValidator/Classes/0.0.1/RMRUTValidator.{h,m}'
 
   s.requires_arc = true
 end
