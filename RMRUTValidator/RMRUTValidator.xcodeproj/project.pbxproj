@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E3E872F117E4AC48009D70C4 /* RMRUTValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E872F017E4AC48009D70C4 /* RMRUTValidator.m */; };
+		E3E872F417E4B1FA009D70C4 /* RMRUTValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E872F317E4B1FA009D70C4 /* RMRUTValidator.m */; };
 		E3F016E817E47FA500EC36B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016E717E47FA500EC36B4 /* Foundation.framework */; };
 		E3F016EA17E47FA500EC36B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016E917E47FA500EC36B4 /* CoreGraphics.framework */; };
 		E3F016EC17E47FA500EC36B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016EB17E47FA500EC36B4 /* UIKit.framework */; };
@@ -32,8 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E3E872EF17E4AC48009D70C4 /* RMRUTValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMRUTValidator.h; path = Classes/RMRUTValidator.h; sourceTree = SOURCE_ROOT; };
-		E3E872F017E4AC48009D70C4 /* RMRUTValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMRUTValidator.m; path = Classes/RMRUTValidator.m; sourceTree = SOURCE_ROOT; };
+		E3E872F217E4B1FA009D70C4 /* RMRUTValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMRUTValidator.h; path = Classes/0.0.1/RMRUTValidator.h; sourceTree = SOURCE_ROOT; };
+		E3E872F317E4B1FA009D70C4 /* RMRUTValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMRUTValidator.m; path = Classes/0.0.1/RMRUTValidator.m; sourceTree = SOURCE_ROOT; };
 		E3F016E417E47FA500EC36B4 /* RMRUTValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMRUTValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F016E717E47FA500EC36B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E3F016E917E47FA500EC36B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -148,8 +148,8 @@
 		E3F0171617E47FCD00EC36B4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E3E872EF17E4AC48009D70C4 /* RMRUTValidator.h */,
-				E3E872F017E4AC48009D70C4 /* RMRUTValidator.m */,
+				E3E872F217E4B1FA009D70C4 /* RMRUTValidator.h */,
+				E3E872F317E4B1FA009D70C4 /* RMRUTValidator.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3F0172217E491FE00EC36B4 /* RMRUTValidatorTests.m in Sources */,
-				E3E872F117E4AC48009D70C4 /* RMRUTValidator.m in Sources */,
+				E3E872F417E4B1FA009D70C4 /* RMRUTValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
