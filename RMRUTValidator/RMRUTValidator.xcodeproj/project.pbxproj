@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3F016E817E47FA500EC36B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016E717E47FA500EC36B4 /* Foundation.framework */; };
+		E3F016EA17E47FA500EC36B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016E917E47FA500EC36B4 /* CoreGraphics.framework */; };
+		E3F016EC17E47FA500EC36B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016EB17E47FA500EC36B4 /* UIKit.framework */; };
+		E3F016F217E47FA500EC36B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3F016F017E47FA500EC36B4 /* InfoPlist.strings */; };
+		E3F016F417E47FA500EC36B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F016F317E47FA500EC36B4 /* main.m */; };
+		E3F016F817E47FA500EC36B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F016F717E47FA500EC36B4 /* AppDelegate.m */; };
+		E3F016FA17E47FA500EC36B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3F016F917E47FA500EC36B4 /* Images.xcassets */; };
+		E3F0170117E47FA500EC36B4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F0170017E47FA500EC36B4 /* XCTest.framework */; };
+		E3F0170217E47FA500EC36B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016E717E47FA500EC36B4 /* Foundation.framework */; };
+		E3F0170317E47FA500EC36B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F016EB17E47FA500EC36B4 /* UIKit.framework */; };
+		E3F0170B17E47FA500EC36B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3F0170917E47FA500EC36B4 /* InfoPlist.strings */; };
+		E3F0171917E480B500EC36B4 /* RMRUTValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0171817E480B500EC36B4 /* RMRUTValidator.m */; };
+		E3F0172217E491FE00EC36B4 /* RMRUTValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0172117E491FE00EC36B4 /* RMRUTValidatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3F0170417E47FA500EC36B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3F016DC17E47FA500EC36B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3F016E317E47FA500EC36B4;
+			remoteInfo = RMRUTValidator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3F016E417E47FA500EC36B4 /* RMRUTValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RMRUTValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F016E717E47FA500EC36B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3F016E917E47FA500EC36B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3F016EB17E47FA500EC36B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3F016EF17E47FA500EC36B4 /* RMRUTValidator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMRUTValidator-Info.plist"; sourceTree = "<group>"; };
+		E3F016F117E47FA500EC36B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3F016F317E47FA500EC36B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3F016F517E47FA500EC36B4 /* RMRUTValidator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMRUTValidator-Prefix.pch"; sourceTree = "<group>"; };
+		E3F016F617E47FA500EC36B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3F016F717E47FA500EC36B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3F016F917E47FA500EC36B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E3F016FF17E47FA500EC36B4 /* RMRUTValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMRUTValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F0170017E47FA500EC36B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E3F0170817E47FA500EC36B4 /* RMRUTValidatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RMRUTValidatorTests-Info.plist"; sourceTree = "<group>"; };
+		E3F0170A17E47FA500EC36B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3F0171717E480B500EC36B4 /* RMRUTValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMRUTValidator.h; sourceTree = "<group>"; };
+		E3F0171817E480B500EC36B4 /* RMRUTValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRUTValidator.m; sourceTree = "<group>"; };
+		E3F0172117E491FE00EC36B4 /* RMRUTValidatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMRUTValidatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3F016E117E47FA500EC36B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F016EA17E47FA500EC36B4 /* CoreGraphics.framework in Frameworks */,
+				E3F016EC17E47FA500EC36B4 /* UIKit.framework in Frameworks */,
+				E3F016E817E47FA500EC36B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F016FC17E47FA500EC36B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F0170117E47FA500EC36B4 /* XCTest.framework in Frameworks */,
+				E3F0170317E47FA500EC36B4 /* UIKit.framework in Frameworks */,
+				E3F0170217E47FA500EC36B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3F016DB17E47FA500EC36B4 = {
+			isa = PBXGroup;
+			children = (
+				E3F016ED17E47FA500EC36B4 /* RMRUTValidator */,
+				E3F0170617E47FA500EC36B4 /* RMRUTValidatorTests */,
+				E3F016E617E47FA500EC36B4 /* Frameworks */,
+				E3F016E517E47FA500EC36B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3F016E517E47FA500EC36B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3F016E417E47FA500EC36B4 /* RMRUTValidator.app */,
+				E3F016FF17E47FA500EC36B4 /* RMRUTValidatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3F016E617E47FA500EC36B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3F016E717E47FA500EC36B4 /* Foundation.framework */,
+				E3F016E917E47FA500EC36B4 /* CoreGraphics.framework */,
+				E3F016EB17E47FA500EC36B4 /* UIKit.framework */,
+				E3F0170017E47FA500EC36B4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3F016ED17E47FA500EC36B4 /* RMRUTValidator */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0171617E47FCD00EC36B4 /* Classes */,
+				E3F016F617E47FA500EC36B4 /* AppDelegate.h */,
+				E3F016F717E47FA500EC36B4 /* AppDelegate.m */,
+				E3F016F917E47FA500EC36B4 /* Images.xcassets */,
+				E3F016EE17E47FA500EC36B4 /* Supporting Files */,
+			);
+			path = RMRUTValidator;
+			sourceTree = "<group>";
+		};
+		E3F016EE17E47FA500EC36B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3F016EF17E47FA500EC36B4 /* RMRUTValidator-Info.plist */,
+				E3F016F017E47FA500EC36B4 /* InfoPlist.strings */,
+				E3F016F317E47FA500EC36B4 /* main.m */,
+				E3F016F517E47FA500EC36B4 /* RMRUTValidator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3F0170617E47FA500EC36B4 /* RMRUTValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0170717E47FA500EC36B4 /* Supporting Files */,
+				E3F0172117E491FE00EC36B4 /* RMRUTValidatorTests.m */,
+			);
+			path = RMRUTValidatorTests;
+			sourceTree = "<group>";
+		};
+		E3F0170717E47FA500EC36B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0170817E47FA500EC36B4 /* RMRUTValidatorTests-Info.plist */,
+				E3F0170917E47FA500EC36B4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3F0171617E47FCD00EC36B4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0171717E480B500EC36B4 /* RMRUTValidator.h */,
+				E3F0171817E480B500EC36B4 /* RMRUTValidator.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3F016E317E47FA500EC36B4 /* RMRUTValidator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F0171017E47FA500EC36B4 /* Build configuration list for PBXNativeTarget "RMRUTValidator" */;
+			buildPhases = (
+				E3F016E017E47FA500EC36B4 /* Sources */,
+				E3F016E117E47FA500EC36B4 /* Frameworks */,
+				E3F016E217E47FA500EC36B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RMRUTValidator;
+			productName = RMRUTValidator;
+			productReference = E3F016E417E47FA500EC36B4 /* RMRUTValidator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3F016FE17E47FA500EC36B4 /* RMRUTValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F0171317E47FA500EC36B4 /* Build configuration list for PBXNativeTarget "RMRUTValidatorTests" */;
+			buildPhases = (
+				E3F016FB17E47FA500EC36B4 /* Sources */,
+				E3F016FC17E47FA500EC36B4 /* Frameworks */,
+				E3F016FD17E47FA500EC36B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3F0170517E47FA500EC36B4 /* PBXTargetDependency */,
+			);
+			name = RMRUTValidatorTests;
+			productName = RMRUTValidatorTests;
+			productReference = E3F016FF17E47FA500EC36B4 /* RMRUTValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3F016DC17E47FA500EC36B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Renato Moya";
+				TargetAttributes = {
+					E3F016FE17E47FA500EC36B4 = {
+						TestTargetID = E3F016E317E47FA500EC36B4;
+					};
+				};
+			};
+			buildConfigurationList = E3F016DF17E47FA500EC36B4 /* Build configuration list for PBXProject "RMRUTValidator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3F016DB17E47FA500EC36B4;
+			productRefGroup = E3F016E517E47FA500EC36B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3F016E317E47FA500EC36B4 /* RMRUTValidator */,
+				E3F016FE17E47FA500EC36B4 /* RMRUTValidatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3F016E217E47FA500EC36B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F016F217E47FA500EC36B4 /* InfoPlist.strings in Resources */,
+				E3F016FA17E47FA500EC36B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F016FD17E47FA500EC36B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F0170B17E47FA500EC36B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3F016E017E47FA500EC36B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F016F817E47FA500EC36B4 /* AppDelegate.m in Sources */,
+				E3F016F417E47FA500EC36B4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F016FB17E47FA500EC36B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F0171917E480B500EC36B4 /* RMRUTValidator.m in Sources */,
+				E3F0172217E491FE00EC36B4 /* RMRUTValidatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3F0170517E47FA500EC36B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3F016E317E47FA500EC36B4 /* RMRUTValidator */;
+			targetProxy = E3F0170417E47FA500EC36B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3F016F017E47FA500EC36B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3F016F117E47FA500EC36B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3F0170917E47FA500EC36B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3F0170A17E47FA500EC36B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3F0170E17E47FA500EC36B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E3F0170F17E47FA500EC36B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3F0171117E47FA500EC36B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMRUTValidator/RMRUTValidator-Prefix.pch";
+				INFOPLIST_FILE = "RMRUTValidator/RMRUTValidator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3F0171217E47FA500EC36B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMRUTValidator/RMRUTValidator-Prefix.pch";
+				INFOPLIST_FILE = "RMRUTValidator/RMRUTValidator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E3F0171417E47FA500EC36B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMRUTValidator.app/RMRUTValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMRUTValidator/RMRUTValidator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RMRUTValidatorTests/RMRUTValidatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E3F0171517E47FA500EC36B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RMRUTValidator.app/RMRUTValidator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RMRUTValidator/RMRUTValidator-Prefix.pch";
+				INFOPLIST_FILE = "RMRUTValidatorTests/RMRUTValidatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3F016DF17E47FA500EC36B4 /* Build configuration list for PBXProject "RMRUTValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F0170E17E47FA500EC36B4 /* Debug */,
+				E3F0170F17E47FA500EC36B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F0171017E47FA500EC36B4 /* Build configuration list for PBXNativeTarget "RMRUTValidator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F0171117E47FA500EC36B4 /* Debug */,
+				E3F0171217E47FA500EC36B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E3F0171317E47FA500EC36B4 /* Build configuration list for PBXNativeTarget "RMRUTValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F0171417E47FA500EC36B4 /* Debug */,
+				E3F0171517E47FA500EC36B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3F016DC17E47FA500EC36B4 /* Project object */;
+}
