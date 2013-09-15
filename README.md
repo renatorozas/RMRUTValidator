@@ -3,16 +3,28 @@ RMRUTValidator
 
 Simple class to validate chilean security number, also known as RUT.
 
+## Requirements
+This class works fine with iOS >= 5.0 and OS X >= 10.7 applications (ARC required, of course).
+
+## Installation
+
+### Manual
+
+Download and add `RMRUTValidator.h` and `RMRUTValidator.m` files to your XCode project.
+
+### Cocoapods
+
+Coming soon.
+
 ## How to use?
 
-1-. Download and add the `RMRUTValidator` class files to your XCode project.
-2-. Import the `RMRUTValidator.h` file where you need to use it.
+Import the `RMRUTValidator.h` file where you need to use it.
 
 ```objc
 #import "RMRUTValidator.h"
 ```
 
-3-. Then you validate a RUT like this:
+Then you validate a RUT like this:
 
 ```objc
 if ([RMRUTValidator validateRut:@"19.200.923-5"]) {
@@ -22,7 +34,7 @@ if ([RMRUTValidator validateRut:@"19.200.923-5"]) {
 }
 ```
 
-Dots and dashes are stripped from the RUT string by default so, the following formats are all valid:
+Dots and hyphen are stripped from the RUT string by default so, the following formats are all valid:
 
 ```objc
 [RMRUTValidator validateRut:@"19.200.923-5"]
