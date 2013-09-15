@@ -14,7 +14,19 @@ Download and add `RMRUTValidator.h` and `RMRUTValidator.m` files to your XCode p
 
 ### Cocoapods
 
-Coming soon.
+Create the `Porfile` file in your XCode project root directory with the following:
+
+```ruby
+platform :ios, '5.0'
+
+pod 'RMRUTValidator'
+```
+
+Then run:
+
+```bash
+pod install
+```
 
 ## How to use?
 
