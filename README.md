@@ -1,6 +1,8 @@
 RMRUTValidator
 ==============
 
+<a href="http://twitter.com/home/?status=Thanks @renatomoya for making RMRUTValidator: https%3A%2F%2Fgithub.com%2Frenatomoya%2FRMRUTValidator"><img src="https://s3.amazonaws.com/github-thank-you-button/thank-you-button.png" alt="Say Thanks" /></a>
+
 Simple class to validate chilean security number, also known as RUT.
 
 ## Requirements
