@@ -12,11 +12,11 @@ This class works fine with iOS >= 5.0 and OS X >= 10.7 applications (ARC require
 
 ### Manual
 
-Download and add `RMRUTValidator.h` and `RMRUTValidator.m` files to your XCode project.
+Download and add `RMRUTValidator.h` and `RMRUTValidator.m` files to your Xcode project.
 
 ### Cocoapods
 
-Create the `Porfile` file in your XCode project root directory with the following:
+Create the `Porfile` file in your Xcode project root directory with the following:
 
 ```ruby
 platform :ios, '5.0'
