@@ -37,6 +37,9 @@
     
     NSInteger digitCalculation = 11 - (numbersSum % 11);
 
+    if (digitCalculation == 11)
+        digitCalculation = 0;
+    
     NSString *computedDigit = digitCalculation == 10 ? @"K" : [NSString stringWithFormat:@"%d", (int)digitCalculation];
     
     if ([digit.uppercaseString isEqualToString:computedDigit]) {

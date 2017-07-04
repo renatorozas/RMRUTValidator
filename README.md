@@ -6,7 +6,7 @@ RMRUTValidator
 Simple class to validate chilean security number, also known as RUT.
 
 ## Requirements
-This class works fine with iOS >= 5.0 and OS X >= 10.7 applications (ARC required, of course).
+This class works fine with iOS >= 9.0 and OS X >= 10.7 applications (ARC required, of course).
 
 ## Installation
 
@@ -19,7 +19,7 @@ Download and add `RMRUTValidator.h` and `RMRUTValidator.m` files to your XCode p
 Create the `Porfile` file in your XCode project root directory with the following:
 
 ```ruby
-platform :ios, '5.0'
+platform :ios, '9.0'
 
 pod 'RMRUTValidator'
 ```
@@ -35,7 +35,7 @@ pod install
 Import the `RMRUTValidator.h` file where you need to use it.
 
 ```objc
-#import "RMRUTValidator.h"
+#import <RMRUTValidator/RMRUTValidator.h>
 ```
 
 Then you validate a RUT like this:

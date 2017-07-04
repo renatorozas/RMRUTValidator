@@ -62,4 +62,58 @@
     XCTAssertFalse([RMRUTValidator validateRut:@"INVALID"], @"The rut is invalid");
 }
 
+/*
+ * specific cases
+ */
+
+- (void)testValidateRutWithDigit0
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.400-0"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit1
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.405-1"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit2
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.413-2"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit3
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.404-3"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit4
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.409-4"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit5
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.403-5"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit6
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.408-6"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit7
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.402-7"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit8
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.407-8"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit9
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"14.400.401-9"], @"The rut is invalid");
+}
+
 @end
