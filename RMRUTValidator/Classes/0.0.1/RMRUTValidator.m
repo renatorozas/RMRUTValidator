@@ -23,7 +23,7 @@
     }
     
     NSString *digit = [rut substringFromIndex:[rut length]-1];
-    NSArray *multipliers = @[ @2, @3, @4, @5, @6, @7, @2, @3 ];
+    NSArray *multipliers = @[ @2, @3, @4, @5, @6, @7, @2, @3, @2, @3, @4, @5, @6, @7, @2, @3];
 
     __block NSInteger numbersSum = 0;
     __block NSInteger index = 0;
