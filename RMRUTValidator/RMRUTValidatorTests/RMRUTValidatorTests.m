@@ -116,4 +116,24 @@
     XCTAssertTrue([RMRUTValidator validateRut:@"14.400.401-9"], @"The rut is invalid");
 }
 
+- (void)testValidateRutWithDigit10
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"145.400.401-7"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit11
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"1.514.400.401-7"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit12
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"12.214.400.401-6"], @"The rut is invalid");
+}
+
+- (void)testValidateRutWithDigit13
+{
+    XCTAssertTrue([RMRUTValidator validateRut:@"122.214.400.401-8"], @"The rut is invalid");
+}
+
 @end
